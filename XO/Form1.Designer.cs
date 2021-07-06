@@ -98,6 +98,7 @@ namespace XO
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 53);
             this.label6.TabIndex = 3;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -107,6 +108,7 @@ namespace XO
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 53);
             this.label7.TabIndex = 8;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -116,6 +118,7 @@ namespace XO
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 53);
             this.label8.TabIndex = 7;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
@@ -125,6 +128,7 @@ namespace XO
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 53);
             this.label9.TabIndex = 6;
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // Form1
             // 

@@ -272,6 +272,234 @@ namespace XO
                 label8.Text = "";
                 label9.Text = "";
             }
+            if (label3.Text == label5.Text && label5.Text == label7.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label1.Text == label5.Text && label5.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            if (label6.Text == "")
+                if (b)
+                {
+                    label6.Text = "0";
+                    b = !b;
+                }
+                else
+                {
+                    label6.Text = "1";
+                    b = !b;
+                }
+            if (label3.Text == label6.Text && label6.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label4.Text == label5.Text && label5.Text == label6.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            if (label7.Text == "")
+                if (b)
+                {
+                    label7.Text = "0";
+                    b = !b;
+                }
+                else
+                {
+                    label7.Text = "1";
+                    b = !b;
+                }
+            if (label7.Text == label8.Text && label8.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label1.Text == label4.Text && label4.Text == label7.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label3.Text == label5.Text && label5.Text == label7.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            if (label8.Text == "")
+                if (b)
+                {
+                    label8.Text = "0";
+                    b = !b;
+                }
+                else
+                {
+                    label8.Text = "1";
+                    b = !b;
+                }
+            if (label7.Text == label8.Text && label8.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label2.Text == label5.Text && label5.Text == label8.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }       
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "")
+                if (b)
+                {
+                    label9.Text = "0";
+                    b = !b;
+                }
+                else
+                {
+                    label9.Text = "1";
+                    b = !b;
+                }
+            if (label7.Text == label8.Text && label8.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label3.Text == label6.Text && label6.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
+            if (label1.Text == label5.Text && label5.Text == label9.Text)
+            {
+                if (label1.Text == "0") MessageBox.Show("A castigat Toni");
+                else MessageBox.Show("A castigat Dorel");
+                label1.Text = "";
+                label2.Text = "";
+                label3.Text = "";
+                label4.Text = "";
+                label5.Text = "";
+                label6.Text = "";
+                label7.Text = "";
+                label8.Text = "";
+                label9.Text = "";
+            }
         }
     }
 }
