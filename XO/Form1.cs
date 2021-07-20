@@ -40,45 +40,34 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label1.Text == label4.Text && label4.Text == label7.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label1.Text == label5.Text && label5.Text == label9.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
 
+        }
+
+        private void ResetBoard()
+        {
+            label1.Text = "";
+            label2.Text = "";
+            label3.Text = "";
+            label4.Text = "";
+            label5.Text = "";
+            label6.Text = "";
+            label7.Text = "";
+            label8.Text = "";
+            label9.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -104,29 +93,13 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label2.Text == label5.Text && label5.Text == label8.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
 
@@ -147,43 +120,19 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label3.Text == label5.Text && label5.Text == label7.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label3.Text == label6.Text && label6.Text == label9.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
 
@@ -204,29 +153,13 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label4.Text == label5.Text && label5.Text == label6.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             
         }
@@ -248,57 +181,25 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label2.Text == label5.Text && label5.Text == label8.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label3.Text == label5.Text && label5.Text == label7.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label1.Text == label5.Text && label5.Text == label9.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
 
@@ -319,29 +220,13 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label4.Text == label5.Text && label5.Text == label6.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
 
@@ -362,43 +247,19 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label1.Text == label4.Text && label4.Text == label7.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label3.Text == label5.Text && label5.Text == label7.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
 
@@ -419,29 +280,13 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label2.Text == label5.Text && label5.Text == label8.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }       
         }
 
@@ -462,43 +307,19 @@ namespace XO
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label3.Text == label6.Text && label6.Text == label9.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
             if (label1.Text == label5.Text && label5.Text == label9.Text)
             {
                 if (label1.Text == "0") MessageBox.Show("A castigat Toni");
                 else MessageBox.Show("A castigat Dorel");
-                label1.Text = "";
-                label2.Text = "";
-                label3.Text = "";
-                label4.Text = "";
-                label5.Text = "";
-                label6.Text = "";
-                label7.Text = "";
-                label8.Text = "";
-                label9.Text = "";
+                ResetBoard();
             }
         }
     }
